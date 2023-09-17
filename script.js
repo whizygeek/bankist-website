@@ -237,11 +237,3 @@ const slider = function () {
   });
 };
 slider();
-
-document.addEventListener('DOMContentLoaded', function (e) {
-  console.log('DOM content is loaded', e);
-});
-
-window.addEventListener('load', function (e) {
-  console.log('all script and resources loaded', e);
-});
